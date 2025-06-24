@@ -117,6 +117,28 @@
             line-height: 1.6;
             text-align: justify;
         }
+        .project-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        .tech-stack {
+            color: #3498db;
+            font-size: 0.9em;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        /* Style for project links */
+        .project-link {
+            font-size: 0.85em;
+            margin-left: 10px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .project-link:hover {
+            text-decoration: underline;
+        }
         .education-item {
             display: flex;
             justify-content: space-between;
@@ -135,18 +157,6 @@
             color: #555;
             font-size: 0.95em;
         }
-        .project-title {
-            font-weight: bold;
-            font-size: 1.1em;
-            color: #2c3e50;
-            margin-bottom: 8px;
-        }
-        .tech-stack {
-            color: #3498db;
-            font-size: 0.9em;
-            font-style: italic;
-            margin-bottom: 8px;
-        }
     </style>
 </head>
 <body>
@@ -154,7 +164,7 @@
         <h1 class="name">RAMEES ALI</h1>
         <div class="title">Full-Stack Developer</div>
         <div class="contact-info">
-            <div class="contact-item">📧 alirameesedv@gmail.com</div>
+            <div class="contact-item">📧 mailbox.ramees@gmail.com</div>
             <div class="contact-item">📱 +91 8593860720</div>
             <div class="contact-item">📍 Payyunni House, Mundengara, Edavanna, Malappuram, Kerala</div>
             <div class="contact-item">💼 LinkedIn: linkedin.com/in/ramees-ali</div>
@@ -173,7 +183,7 @@
         <div class="skills-grid">
             <div class="skill-category">
                 <h4>Backend Development</h4>
-                <div class="skills-list">Node.js, NestJS, Express.js, REST APIs, TypeScript</div>
+                <div class="skills-list">Node.js, **NestJS**, Express.js, REST APIs, TypeScript</div>
             </div>
             <div class="skill-category">
                 <h4>Frontend Development</h4>
@@ -202,7 +212,7 @@
                 <div class="duration">March 2024 - Present</div>
             </div>
             <div class="job-description">
-                Designed and developed full-stack applications leveraging RESTful APIs and modern frontend frameworks such as React.js and Next.js to create seamless user experiences. Implemented MySQL for efficient data management, ensuring secure and optimized storage solutions. Utilized Express.js and NestJS to build scalable server-side APIs that integrate smoothly with frontend components. Responsible for deploying applications to production environments, maintaining 99.5% uptime and optimal performance.
+                Designed and developed full-stack applications leveraging **RESTful APIs** and modern frontend frameworks such as React.js and Next.js to create seamless user experiences. Implemented **MySQL** for efficient data management, ensuring secure and optimized storage solutions. Utilized Express.js and **NestJS** to build scalable server-side APIs that integrate smoothly with frontend components. Responsible for deploying applications to production environments, maintaining **99.5% uptime** and optimal performance.
             </div>
         </div>
 
@@ -215,7 +225,7 @@
                 <div class="duration">November 2023 - Present</div>
             </div>
             <div class="job-description">
-                Conduct comprehensive code reviews for 100+ students in web development bootcamp programs, focusing on JavaScript, Node.js, and React applications. Provide detailed feedback on code quality, best practices, and optimization techniques. Mentor junior developers through one-on-one sessions, helping improve coding standards and debugging skills. Collaborate with instructional team to develop coding assessment criteria and maintain educational quality standards.
+                Conducted comprehensive code reviews for **100+ students** in web development bootcamp programs, focusing on JavaScript, Node.js, and React applications. Provided detailed feedback on code quality, best practices, and optimization techniques. Mentored junior developers through one-on-one sessions, helping improve coding standards and debugging skills. Collaborated with the instructional team to develop coding assessment criteria and maintain educational quality standards.
             </div>
         </div>
 
@@ -228,7 +238,7 @@
                 <div class="duration">March 2023 - October 2023</div>
             </div>
             <div class="job-description">
-                Built and maintained full-stack applications utilizing RESTful APIs and modern frontend frameworks like React.js and Next.js to deliver dynamic user interfaces. Worked proficiently with MongoDB and MySQL for data persistence, ensuring robust storage solutions. Employed Express.js and NestJs to develop flexible server-side APIs with seamless frontend integration. Led end-to-end development process including server deployment, ensuring application availability and reliability for 5,000+ users.
+                Built and maintained full-stack applications utilizing **RESTful APIs** and modern frontend frameworks like React.js and Next.js to deliver dynamic user interfaces. Proficiently worked with MongoDB and MySQL for robust data persistence. Employed Express.js and **NestJS** to develop flexible server-side APIs with seamless frontend integration. Led end-to-end development processes, including server deployment, ensuring application availability and reliability for **5,000+ users**.
             </div>
         </div>
 
@@ -241,7 +251,7 @@
                 <div class="duration">August 2022 - February 2023</div>
             </div>
             <div class="job-description">
-                Designed and built server-side systems supporting web and mobile applications using Nest.js and MongoDB. Developed scalable backend systems, optimized performance by 35%, and ensured seamless integration with frontend functionalities. Successfully deployed healthcare applications to production servers, implementing secure infrastructure supporting critical medical workflows and patient data management.
+                Designed and built server-side systems supporting web and mobile applications using **NestJS** and MongoDB. Developed scalable backend systems, optimizing performance by **35%**, and ensured seamless integration with frontend functionalities. Successfully deployed healthcare applications to production servers, implementing secure infrastructure supporting critical medical workflows and patient data management.
             </div>
         </div>
 
@@ -254,7 +264,7 @@
                 <div class="duration">February 2021 - July 2022</div>
             </div>
             <div class="job-description">
-                Involved in complete application lifecycle from design to deployment, crafting efficient backend systems using Node.js, Express.js, and Nest.js. Wrote optimized SQL scripts for database creation and contributed to database architecture design. Integrated Firebase and MSSQL databases providing robust application foundation. Developed high-performance RESTful API services and successfully deployed applications ensuring smooth user experience for enterprise clients.
+                Involved in the complete application lifecycle from design to deployment, crafting efficient backend systems using Node.js, Express.js, and **NestJS**. Wrote optimized SQL scripts for database creation and contributed to database architecture design. Integrated Firebase and MSSQL databases, providing a robust application foundation. Developed high-performance RESTful API services and successfully deployed applications, ensuring a smooth user experience for enterprise clients.
             </div>
         </div>
     </div>
@@ -263,34 +273,42 @@
         <h2 class="section-title">Key Projects</h2>
         
         <div class="project-item">
-            <div class="project-title">Event Ticket Booking System</div>
+            <div class="project-title">
+                Event Ticket Booking System
+                </div>
             <div class="tech-stack">Node.js, React.js, MongoDB, Express.js, Payment Gateway Integration</div>
             <div class="job-description">
-                Developed a comprehensive event ticket booking platform with intuitive admin panel for managing events, tickets, and transactions. Integrated secure payment gateways, implemented automated booking confirmations, seat selection, and real-time updates. System handles 1,000+ concurrent bookings with 99.9% transaction success rate.
+                Developed a comprehensive event ticket booking platform with an intuitive admin panel for managing events, tickets, and transactions. Integrated secure payment gateways, implemented automated booking confirmations, seat selection, and real-time updates. The system handles **1,000+ concurrent bookings** with a **99.9% transaction success rate**.
             </div>
         </div>
 
         <div class="project-item">
-            <div class="project-title">FitPeps - Fitness Subscription Platform</div>
+            <div class="project-title">
+                FitPeps - Fitness Subscription Platform
+                </div>
             <div class="tech-stack">Next.js, Node.js, MySQL, Payment Integration, Email/SMS APIs</div>
             <div class="job-description">
-                Built dynamic fitness subscription website with comprehensive admin panel for content and user management. Developed robust backend services including database management, payment integration, and automated notification systems. Platform serves 2,000+ active subscribers with seamless video streaming capabilities.
+                Built a dynamic fitness subscription website with a comprehensive admin panel for content and user management. Developed robust backend services including database management, payment integration, and automated notification systems. The platform serves **2,000+ active subscribers** with seamless video streaming capabilities.
             </div>
         </div>
 
         <div class="project-item">
-            <div class="project-title">DRxTx Neo Medicare</div>
+            <div class="project-title">
+                DRxTx Neo Medicare
+                </div>
             <div class="tech-stack">NestJS, MongoDB, React.js, Healthcare APIs</div>
             <div class="job-description">
-                Comprehensive healthcare management software offering appointment scheduling, ambulance dispatch, and insurance management. Streamlined medical operations for 50+ healthcare facilities, improving patient care efficiency by 40% and reducing administrative overhead.
+                Comprehensive healthcare management software offering appointment scheduling, ambulance dispatch, and insurance management. Streamlined medical operations for **50+ healthcare facilities**, improving patient care efficiency by **40%** and reducing administrative overhead.
             </div>
         </div>
 
         <div class="project-item">
-            <div class="project-title">Nura Desk - Medical Screening Platform</div>
+            <div class="project-title">
+                Nura Desk - Medical Screening Platform
+                </div>
             <div class="tech-stack">Node.js, Express.js, MySQL, Medical Imaging APIs</div>
             <div class="job-description">
-                End-to-end medical screening platform enabling early detection of medical conditions. Integrated appointment scheduling, lab result recording, and medical professional verification systems. Improved diagnosis speed by 60% for participating medical firms.
+                End-to-end medical screening platform enabling early detection of medical conditions. Integrated appointment scheduling, lab result recording, and medical professional verification systems. Improved diagnosis speed by **60%** for participating medical firms.
             </div>
         </div>
     </div>
